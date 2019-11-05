@@ -7,11 +7,11 @@ UniversalPay Gateway PHP SDK is a small library of PHP code that you can use to 
 
 This section will give you a very quick introduction as to how you can use it and later in this document you will find more details.
 
-##Before you Begin
+## Before you Begin
 
 Before using the UniversalPay Gateway PHP SDK you should be familiar with the contents of the [API Specification for Merchants](docs/API-Specification.pdf) document as it describes all fields and their meaning within a given payment transaction.
 
-##Setup your Project
+## Setup your Project
 
 UniversalPay Gateway PHP SDK is delivered as a composer(*) package, or dependency, that you should add to your PHP project in order to use it.
 
@@ -19,7 +19,7 @@ Once done - all its code will be available to you under the Payments PHP namespa
 
 > Composer is a popular dependency management tool and you can find more information about it at https://getcomposer.org/
 
-##Choose an Operation Mode
+## Choose an Operation Mode
 
 UniversalPay Gateway SDK lets you choose between two ways of using it:
 
