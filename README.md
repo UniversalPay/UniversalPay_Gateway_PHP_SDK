@@ -1,7 +1,7 @@
 # UniversalPay-PHP-SDK
 This  library provides integration access to the UniversalPay Gateway.
 
-##Quick Start
+## Quick Start
 
 UniversalPay Gateway PHP SDK is a small library of PHP code that you can use to quickly integrate with the UniversalPay Gateway system and submit transactions, check their status and more.
 
