@@ -13,12 +13,13 @@ try {
 		
         $purchase = $payments->purchase();
         $purchase->allowOriginUrl(getSiteDomain())->
-                merchantNotificationUrl("http://google.com/")->
+                merchantNotificationUrl("http://webhook.site/dcc7efd0-f66f-4d28-8e20-3f8b034c4c55")->
                 channel(Payments::CHANNEL_ECOM)->
                 userDevice(Payments::USER_DEVICE_DESKTOP)->
                 amount($amount)->
                 country($country)->
                 currency($currency)->
+				customerId($customer_it_token)->
                 paymentSolutionId($paymentSolutionId);
         $token = $purchase->token();
         ?>

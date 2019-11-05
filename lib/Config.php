@@ -9,16 +9,16 @@ class Config {
     static $BaseUrl;
     static $JavaScriptUrl;
     static $TestUrls = array(
-        "SessionTokenRequestUrl" => "https://api.test.universalpay.es/token",
-        "PaymentOperationActionUrl" => "https://api.test.universalpay.es/payments",
-        "JavaScriptUrl" => "https://cashierui.test.universalpay.es/js/api.js",
-        "BaseUrl" => "https://cashierui.test.universalpay.es/",
+        "SessionTokenRequestUrl" => "https://apiuat.test.universalpaygateway.com/token",
+        "PaymentOperationActionUrl" => "https://apiuat.test.universalpaygateway.com/payments",
+        "JavaScriptUrl" => "https://cashierui-apiuat.test.universalpaygateway.com/js/api.js",
+        "BaseUrl" => "https://cashierui-apiuat.test.universalpaygateway.com/ui/cashier",
     );
     static $ProductionUrls = array(
-        "SessionTokenRequestUrl" => "https://api.universalpay.es/token",
-        "PaymentOperationActionUrl" => "https://api.universalpay.es/payments",
-        "JavaScriptUrl" => "https://cashierui.universalpay.es/js/api.js",
-        "BaseUrl" => "https://cashierui.universalpay.es",
+        "SessionTokenRequestUrl" => "https://api.universalpaygateway.com/token",
+        "PaymentOperationActionUrl" => "https://api.universalpaygateway.com/payments",
+        "JavaScriptUrl" => "https://cashierui-api.universalpaygateway.com/js/api.js",
+        "BaseUrl" => "https://cashierui-api.universalpaygateway.com/ui/cashier",
     );
     static $Protocol = "https";
     static $Method = "POST";

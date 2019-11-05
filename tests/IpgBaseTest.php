@@ -9,12 +9,12 @@ class IpgBaseTest extends TestCase
 
     protected $payments = null;
     
-    protected static $MERCHANT_ID = "167885";
-    protected static $PASSWORD = "56789";
-    protected static $BRAND_ID = "1678850000";
+    protected static $MERCHANT_ID = "168678";
+    protected static $PASSWORD = "12345";
+    protected static $BRAND_ID = "1686780000";
 	protected static $AMOUNT = "12.00";
-	protected static $COUNTRY = "PL";
-	protected static $CURRENCY = "PLN";
+	protected static $COUNTRY = "IE";
+	protected static $CURRENCY = "GBP";
 	protected static $CVV = "888";
 	protected static $PAYMENT_SOLUTION_ID = "500";
 	protected static $FAKE_HOST = "http://www.fake.com";

@@ -18,7 +18,7 @@ try {
         ));
         $purchase = $payments->purchase();
         $purchase->allowOriginUrl(getSiteDomain())->
-                merchantNotificationUrl("http://google.com/")->
+                merchantNotificationUrl("http://webhook.site/dcc7efd0-f66f-4d28-8e20-3f8b034c4c55")->
 				merchantLandingPageUrl($landingUrl) ->
 				merchantTxId($merchantTxId) ->
                 channel(Payments::CHANNEL_ECOM)->
