@@ -29,7 +29,7 @@ UniversalPay Gateway SDK lets you choose between two ways of using it:
 
 Choose the one that is most appropriate for your project.
 
-##Configure
+## Configure
 
 Payments SDK needs to ‘know’ a few things before it can perform any operation - for example - your authentication credentials; which is your merchant number; if you’re only testing your app and you don’t actually want to pay with a real card or if it is running in a production environment, etc.
 
