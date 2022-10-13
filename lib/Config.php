@@ -9,16 +9,16 @@ class Config {
     static $BaseUrl;
     static $JavaScriptUrl;
     static $TestUrls = array(
-        "SessionTokenRequestUrl" => "https://apiuat.test.universalpaygateway.com/token",
-        "PaymentOperationActionUrl" => "https://apiuat.test.universalpaygateway.com/payments",
-        "JavaScriptUrl" => "https://cashierui-apiuat.test.universalpaygateway.com/js/api.js",
-        "BaseUrl" => "https://cashierui-apiuat.test.universalpaygateway.com/ui/cashier",
+        "SessionTokenRequestUrl" => "https://api.test.universalpay.es/token",
+        "PaymentOperationActionUrl" => "https://api.test.universalpay.es/payments",
+        "JavaScriptUrl" => "https://cashierui-api.test.universalpay.es/js/api.js",
+        "BaseUrl" => "https://cashierui.test.universalpay.es",
     );
     static $ProductionUrls = array(
-        "SessionTokenRequestUrl" => "https://api.universalpaygateway.com/token",
-        "PaymentOperationActionUrl" => "https://api.universalpaygateway.com/payments",
+        "SessionTokenRequestUrl" => "https://api.universalpay.es/token",
+        "PaymentOperationActionUrl" => "https://api.universalpay.es/payments",
         "JavaScriptUrl" => "https://cashierui-api.universalpaygateway.com/js/api.js",
-        "BaseUrl" => "https://cashierui-api.universalpaygateway.com/ui/cashier",
+        "BaseUrl" => "https://cashierui.universalpay.es",
     );
     static $Protocol = "https";
     static $Method = "POST";
