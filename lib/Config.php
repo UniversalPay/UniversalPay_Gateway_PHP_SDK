@@ -9,10 +9,10 @@ class Config {
     static $BaseUrl;
     static $JavaScriptUrl;
     static $TestUrls = array(
-        "SessionTokenRequestUrl" => "https://apiuat.test.universalpaygateway.com/token",
-        "PaymentOperationActionUrl" => "https://apiuat.test.universalpaygateway.com/payments",
-        "JavaScriptUrl" => "https://cashierui-apiuat.test.universalpaygateway.com/js/api.js",
-        "BaseUrl" => "https://cashierui-apiuat.test.universalpaygateway.com/ui/cashier",
+        "SessionTokenRequestUrl" => "https://api.test.universalpaygateway.com/token",
+        "PaymentOperationActionUrl" => "https://api.test.universalpaygateway.com/payments",
+        "JavaScriptUrl" => "https://cashierui-api.test.universalpaygateway.com/js/api.js",
+        "BaseUrl" => "https://cashierui-api.test.universalpaygateway.com/ui/cashier",
     );
     static $ProductionUrls = array(
         "SessionTokenRequestUrl" => "https://api.universalpaygateway.com/token",
